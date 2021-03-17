@@ -110,6 +110,7 @@ export const languageIcons: LanguageIcon[] = [
   { icon: { name: 'r' }, ids: ['r', 'rsweave'] },
   { icon: { name: 'rust' }, ids: ['rust'] },
   { icon: { name: 'database' }, ids: ['sql'] },
+  { icon: { name: 'kusto' }, ids: ['kql'] },
   { icon: { name: 'lock' }, ids: ['ssh_config'] },
   { icon: { name: 'svg' }, ids: ['svg'] },
   { icon: { name: 'swift' }, ids: ['swift'] },
@@ -122,4 +123,6 @@ export const languageIcons: LanguageIcon[] = [
     ids: ['twee3', 'twee3-harlowe-3', 'twee3-chapbook-1', 'twee3-sugarcube-2'],
   },
   { icon: { name: 'grain' }, ids: ['grain'] },
+  { icon: { name: 'lolcode' }, ids: ['lolcode'] },
+  { icon: { name: 'idris' }, ids: ['idris'] },
 ];

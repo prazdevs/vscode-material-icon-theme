@@ -69,6 +69,7 @@ export const folderIcons: FolderTheme[] = [
         folderNames: [
           'doc',
           'docs',
+          'document',
           'documents',
           'documentation',
           'post',
@@ -264,7 +265,7 @@ export const folderIcons: FolderTheme[] = [
       { name: 'folder-aws', folderNames: ['aws', '.aws'] },
       {
         name: 'folder-audio',
-        folderNames: ['audio', 'audios', 'music', 'sound', 'sounds'],
+        folderNames: ['audio', 'audios', 'music', 'musics', 'sound', 'sounds'],
       },
       {
         name: 'folder-video',
@@ -291,7 +292,14 @@ export const folderIcons: FolderTheme[] = [
       },
       {
         name: 'folder-class',
-        folderNames: ['class', 'classes', 'model', 'models', 'schemes', 'schema'],
+        folderNames: [
+          'class',
+          'classes',
+          'model',
+          'models',
+          'schemes',
+          'schema',
+        ],
       },
       {
         name: 'folder-other',
@@ -371,7 +379,10 @@ export const folderIcons: FolderTheme[] = [
       },
       { name: 'folder-ansible', folderNames: ['ansible'] },
       { name: 'folder-server', folderNames: ['server', 'servers', 'backend'] },
-      { name: 'folder-client', folderNames: ['client', 'clients', 'frontend'] },
+      {
+        name: 'folder-client',
+        folderNames: ['client', 'clients', 'frontend', 'pwa'],
+      },
       { name: 'folder-tasks', folderNames: ['tasks', 'tickets'] },
       { name: 'folder-android', folderNames: ['android'] },
       { name: 'folder-ios', folderNames: ['ios'] },
@@ -572,7 +583,7 @@ export const folderIcons: FolderTheme[] = [
         folderNames: ['components'],
         enabledFor: [IconPack.Vuex, IconPack.Vue],
       },
-      { name: 'folder-terraform', folderNames: ['terraform'] },
+      { name: 'folder-terraform', folderNames: ['terraform', '.terraform'] },
       {
         name: 'folder-mobile',
         folderNames: ['mobile', 'mobiles', 'portable', 'portability'],
@@ -590,7 +601,11 @@ export const folderIcons: FolderTheme[] = [
         folderNames: ['.azure-pipelines', '.azure-pipelines-ci'],
       },
       { name: 'folder-mjml', folderNames: ['mjml'] },
+      { name: 'folder-admin', folderNames: ['admin'] },
       { name: 'folder-scala', folderNames: ['scala'] },
+      { name: 'folder-connection', folderNames: ['connection', 'connections'] },
+      { name: 'folder-quasar', folderNames: ['.quasar'] },
+      { name: 'folder-cobol', folderNames: ['cobol'] },
     ],
   },
   {
